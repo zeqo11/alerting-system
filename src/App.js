@@ -6,11 +6,8 @@ import CardComponent from './components/CardComponent';
 function App() {
   return (
     <div className="App">
-      <CardComponent>
 
-      </CardComponent>
-
-      <MyComponents>Deneme</MyComponents>
+      <MyComponents> Deneme </MyComponents>
 
     </div>
   );

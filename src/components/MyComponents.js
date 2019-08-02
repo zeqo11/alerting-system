@@ -18,14 +18,12 @@ class MyComponents extends Component{
      };
     render(){
     let myVar = "my var";
-        return <div>
+        return <div style = {{border: '1px solid grey', width: '500px'}}>
         <br/>
 
         <br/>
 
-        <br/>
 
-        <br/>
 
             <form>
               <label>
@@ -62,6 +60,8 @@ class MyComponents extends Component{
                 <input type="submit" value="Submit" />
             </form>
 
+          <br/>
+          <br/>
         </div>
     }
 
